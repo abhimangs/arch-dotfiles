@@ -9,3 +9,18 @@ stow
 yay 
 
 ulauncher
+
+
+
+
+
+
+
+
+
+
+
+pacman conf
+
+sudo rm -rf /etc/pacman.conf
+sudo stow --target="/" pacman
