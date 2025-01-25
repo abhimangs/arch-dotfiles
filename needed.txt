@@ -3,7 +3,7 @@ pacman
 cowsay
 neofetch
 alacritty
-
+stow
 
 
 yay 
