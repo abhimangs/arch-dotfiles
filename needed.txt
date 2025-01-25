@@ -1,0 +1,11 @@
+pacman
+
+cowsay
+neofetch
+alacritty
+
+
+
+yay 
+
+ulauncher

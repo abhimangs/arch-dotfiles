@@ -1,0 +1,47 @@
+# https://alacritty.org/config-alacritty.html
+
+[font]
+size = 10.0
+
+[font.normal]
+family = "JetBrainsMono"
+style = "Regular"
+
+[window]
+opacity = 0.8
+blur = true
+startup_mode = "Maximized"
+# startup_mode = "Windowed" | "Maximized" | "Fullscreen" | "SimpleFullscreen"
+
+[window.padding]
+x = 15
+y = 15
+
+[selection]
+save_to_clipboard = true
+
+[colors]
+primary = { foreground = "#e0e0e0", background = "#000000" }
+cursor = { text = "#000000", cursor = "#e0e0e0" }
+
+[colors.search]
+matches = { foreground = "#000000", background = "#5e5e5e" }
+focused_match = { foreground = "#000000", background = "#9e9e9e" }
+
+[colors.hints]
+start = { foreground = "#000000", background = "#8b8b8b" }
+end = { foreground = "#000000", background = "#5e5e5e" }
+
+[colors.line_indicator]
+# Optional: Light grey if needed to indicate the current line.
+foreground = "#e0e0e0"
+background = "#1a1a1a"
+
+[colors.footer_bar]
+# Optional: A muted grey for footer bars if desired.
+foreground = "#e0e0e0"
+background = "#1a1a1a"
+
+[colors.selection]
+text = "#ffffff"
+background = "#8a2be2"
