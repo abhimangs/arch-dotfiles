@@ -6,6 +6,8 @@ alacritty
 stow
 zsh
 ttf-jetbrains-mono
+fastfetch
+ghostty
 
 
 yay 
