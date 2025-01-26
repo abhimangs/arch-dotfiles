@@ -4,7 +4,9 @@ iatest=$(expr index "$-" i)
 
 # My Custom ALIAS
 
-alias iusearchbtw="neofetch && sudo pacman -Syyu && cowsay 'Update complete! I use Arch btw!'"
+alias archupdate="neofetch && sudo pacman -Syyu && cowsay 'Update complete! I use Arch btw!'"
+alias gitobs="~/Programs/script/obsidian.sh"
+alias gitdot="~/Programs/script/arch-dotfiles.sh"
 
 
 #######################################################
