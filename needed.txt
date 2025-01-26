@@ -5,6 +5,8 @@ neofetch
 alacritty
 stow
 zsh
+ttf-jetbrains-mono
+
 
 yay 
 
