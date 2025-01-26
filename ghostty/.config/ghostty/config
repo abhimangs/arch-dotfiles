@@ -14,3 +14,4 @@ font-family-bold-italic = "JetBrains Mono Bold Italic"
 clipboard-paste-protection = true
 window-inherit-font-size = true
 theme = catppuccin-mocha
+copy-on-select = true
