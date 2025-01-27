@@ -38,5 +38,15 @@
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1736857490.2857325
+    },
+    "72c4123b-7f89-4c3e-bfb0-c94d2c74ebcc": {
+        "id": "72c4123b-7f89-4c3e-bfb0-c94d2c74ebcc",
+        "name": "Flatpak",
+        "keyword": "flat",
+        "cmd": "https://flathub.org/apps/search?q=%s",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1737943743.6846213
     }
 }
