@@ -8,6 +8,8 @@ zsh
 ttf-jetbrains-mono
 fastfetch
 ghostty
+rofi-wayland
+
 
 
 yay 
