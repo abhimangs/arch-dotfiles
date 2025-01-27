@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 iatest=$(expr index "$-" i)
 
-
 # My Custom ALIAS
 
 alias archupdate="neofetch && sudo pacman -Syyu && cowsay 'Update complete! I use Arch btw!'"

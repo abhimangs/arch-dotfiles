@@ -273,9 +273,6 @@ _launch=Meta+Alt+Esc
 [services][net.local.dolphin.desktop]
 _launch=Meta+A
 
-[services][net.local.rofi.desktop]
-_launch=Meta+Space
-
 [services][net.local.ulauncher-toggle.desktop]
 _launch=Ctrl+Space
 
