@@ -11,6 +11,7 @@ prev_track=none,none,Previous track
 stop=none,none,Stop
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
@@ -44,7 +45,7 @@ Log Out Without Confirmation=none,,Log Out Without Confirmation
 LogOut=none,,Log Out
 Reboot=Meta+R,,Reboot
 Reboot Without Confirmation=none,,Reboot Without Confirmation
-Shut Down=Meta+Space,,Shut Down
+Shut Down=none,,Shut Down
 _k_friendly_name=Session Management
 
 [kwin]
@@ -269,11 +270,11 @@ _launch=Meta+Return
 [services][io.missioncenter.MissionCenter.desktop]
 _launch=Meta+Alt+Esc
 
-[services][net.local.dolphin-2.desktop]
-_launch=Alt+S
-
 [services][net.local.dolphin.desktop]
 _launch=Meta+A
+
+[services][net.local.rofi.desktop]
+_launch=Meta+Space
 
 [services][net.local.ulauncher-toggle.desktop]
 _launch=Ctrl+Space
