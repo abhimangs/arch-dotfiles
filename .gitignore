@@ -1,6 +1,0 @@
-*.log
-*.bak
-*.swp
-.DS_Store
-.local/share/Trash/*
-.cache/*
