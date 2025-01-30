@@ -264,7 +264,7 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[services][Alacritty.desktop]
+[services][com.mitchellh.ghostty.desktop]
 _launch=Meta+Return
 
 [services][io.missioncenter.MissionCenter.desktop]
@@ -291,6 +291,8 @@ _launch=Alt+Space\tSearch\tAlt+F2
 [services][org.kde.spectacle.desktop]
 RecordRegion=Meta+Shift+R
 RecordWindow=none
+RectangularRegionScreenShot=Meta+Shift+Print\tPrint
+_launch=Meta+Shift+S
 
 [yakuake]
 _k_friendly_name=Yakuake

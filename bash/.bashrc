@@ -5,7 +5,7 @@ iatest=$(expr index "$-" i)
 
 alias archupdate="neofetch && sudo pacman -Syyu && cowsay 'Update complete! I use Arch btw!'"
 alias gitpush="~/Programs/script/gitpush.sh"
-
+alias desk="cd $HOME/Desktop"
 
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
