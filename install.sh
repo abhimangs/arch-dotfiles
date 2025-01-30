@@ -4,16 +4,16 @@
 script_dir="$HOME/dotfiles/scripts"
 
 declare -A options=(
-    ["1"]="Configure Alacritty"
-    ["2"]="Configure Bash"
-    ["3"]="Install Fastfetch"
-    ["4"]="Configure Ghostty"
-    ["5"]="Set KDE Keybinds"
-    ["6"]="Setup Neofetch"
-    ["7"]="Configure Pacman"
-    ["8"]="Setup Rofi"
-    ["9"]="Install Ulauncher"
-    ["10"]="Set Wallpaper"
+    ["1"]="Alacritty"
+    ["2"]="Bash"
+    ["3"]="Fastfetch"
+    ["4"]="Ghostty"
+    ["5"]="KDE Keybinds"
+    ["6"]="Neofetch"
+    ["7"]="Pacman"
+    ["8"]="Rofi"
+    ["9"]="Ulauncher"
+    ["10"]="Wallpaper"
     ["11"]="Exit"
 )
 
@@ -31,16 +31,20 @@ declare -A scripts=(
 )
 
 # Display menu in sorted order
-echo "================================"
-echo "  🔧 Dotfiles Configuration Menu"
-echo "================================"
+echo "                                  "
+echo "=================================="
+echo "  🔧 Dotfiles Configuration Menu  "
+echo "=================================="
+echo "                                  "
 for key in $(printf "%s\n" "${!options[@]}" | sort -n); do
     echo "$key) ${options[$key]}"
 done
-echo "================================"
+echo "                                  "
+echo "=================================="
+echo "                                  "
 
 # Get user input (multiple selections)
-read -p "Enter numbers (e.g., 1 3 5): " -a choices
+read -p "Enter numbers (e.g., 2 5 9): " -a choices
 
 # Process selections
 for choice in "${choices[@]}"; do

@@ -4,7 +4,7 @@
 program_name="rofi"
 pacman_name="rofi-wayland"
 file_or_folder="$HOME/.config/rofi"
-file_or_folder_backup="$HOME/.config/config_backup/rofi"
+file_or_folder_backup="$HOME/dotfiles_backup//rofi"
 
 # Check if the program is installed
 if command -v "$program_name" &> /dev/null; then
@@ -18,7 +18,7 @@ if [ -e "$file_or_folder" ]; then
     echo "Backing up existing $file_or_folder..."
 
     # Ensure the backup directory exists
-    mkdir -p "$HOME/.config/config_backup"
+    mkdir -p "$HOME/dotfiles_backup/"
 
     sudo mv -f "$file_or_folder" "$file_or_folder_backup"
 fi
