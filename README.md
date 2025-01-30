@@ -2,8 +2,8 @@ pacman
 
 stow
 ttf-jetbrains-mono
-
 cowsay
+
 neofetch
 alacritty
 fastfetch
