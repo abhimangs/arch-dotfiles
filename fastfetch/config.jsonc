@@ -109,7 +109,7 @@
     {
       "type": "os",
       "key": " ",
-      "format": "\u001b[1;31m           Warning - I use {4} btw\u001b[0m",
+      "format": "\u001b[1;31m          Warning - I use {4} btw\u001b[0m",
       "keyColor": "red"
     },
     {
