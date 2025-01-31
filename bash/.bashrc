@@ -10,8 +10,8 @@ alias desk="cd $HOME/Desktop"
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
-if [ -f /usr/bin/neofetch ]; then
-	neofetch
+if [ -f /usr/bin/fastfetch ]; then
+	fastfetch
 fi
 
 # Source global definitions
