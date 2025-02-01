@@ -4,6 +4,8 @@ stow
 ttf-jetbrains-mono
 cowsay
 
+sudo pacman -S ttf-nerd-fonts-symbols
+
 neofetch
 alacritty
 fastfetch
