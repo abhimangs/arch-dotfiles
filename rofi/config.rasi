@@ -1,7 +1,8 @@
 configuration {
   display-drun: "Applications:";
-  display-window: "Windows:";
-  drun-display-format: "{name}";
+  show-icons: true;                  // Explicitly enable icons
+  icon-theme: "JetBrainsMonoNerdFont"; // Match your system's icon theme
+  drun-display-format: "{icon} {name}";
   font: "JetBrainsMono Nerd Font Medium 10";
   modi: "window,run,drun";
 }
@@ -37,7 +38,6 @@ element {
 element selected {
   text-color: @fg;
   background-color: @bg-selected;
-
 }
 
 element-text {
@@ -47,8 +47,8 @@ element-text {
 }
 
 element-icon {
-  size: 14;
-  padding: 0 10 0 0;
+  size: 16;          // Increased size
+  padding: 0 12 0 0; // Adjusted padding
   background-color: transparent;
 }
 
@@ -80,5 +80,3 @@ prompt {
   background-color: @bg-alt;
   text-color: @fg;
 }
-
-/* vim: ft=sass
