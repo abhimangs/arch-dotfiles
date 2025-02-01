@@ -36,18 +36,18 @@
       "keyColor": "red"
     },
     {
+      "type": "de",
+      "key": "  󱫐 DE",
+      "keyColor": "green"
+    },
+    {
       "type": "packages",
       "key": "  󰏗 Packages",
       "keyColor": "green"
     },
     {
-      "type": "display",
-      "key": "  󰍹 Display",
-      "format": "{1}x{2} @ {3}Hz",
-      "keyColor": "green"
-    },
-    {
       "type": "terminal",
+      "format": "{1}",
       "key": "  >_ Terminal",
       "keyColor": "yellow"
     },
@@ -61,6 +61,11 @@
       "format": "\u001b[1;35m├──────────── Hardware Information ───────────┤\u001b[0m"
     },
     {
+      "type": "host",
+      "key": "   Host",
+      "keyColor": "blue"
+    },
+    {
       "type": "cpu",
       "format": "{1}",
       "key": "   CPU",
@@ -70,12 +75,24 @@
       "type": "gpu",
       "format": "{1} {2}",
       "key": "  󰊴 GPU",
-      "keyColor": "blue"
+      "keyColor": "green"
     },
     {
-      "type": "gpu",
-      "format": "{3}",
-      "key": "   GPU Driver",
+      "type": "display",
+      "key": "  󰍹 Display",
+      "format": "{1}x{2} @ {3}Hz",
+      "keyColor": "green"
+    },
+    // {
+    //   "type": "cpuusage",
+    //   "format": "{2}",
+    //   "key": "   CPU Usage",
+    //   "keyColor": "blue"
+    // },
+    {
+      "type": "disk",
+      "format": "{1} / {2} ({3})",
+      "key": "   Disk",
       "keyColor": "magenta"
     },
     {
@@ -102,6 +119,14 @@
       "type": "custom",
       "format": "\u001b[1;35m└─────────────────────────────────────────────┘\u001b[0m"
     },
+
+
+
+    // Remove this if you want to remove the os warning
+    // ┌─────────────────────────────────────────────┐
+    //           Warning - I use arch btw
+    // └─────────────────────────────────────────────┘
+
     {
       "type": "custom",
       "format": "\u001b[1;31m┌─────────────────────────────────────────────┐\u001b[0m"
@@ -116,10 +141,14 @@
       "type": "custom",
       "format": "\u001b[1;31m└─────────────────────────────────────────────┘\u001b[0m"
     },
+
+
+
+
+
     {
       "type": "custom",
       "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m"
     },
-    "break"
   ]
 }

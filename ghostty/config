@@ -2,7 +2,7 @@
 # foreground = ffffff
 background = 111111
 # background-blur-radius = 0
-# background-opacity = 0
+background-opacity = 0.9
 
 # Fonts
 font-size = 10
