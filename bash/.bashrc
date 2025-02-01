@@ -11,7 +11,7 @@ alias desk="cd $HOME/Desktop"
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
 
-sleep 0.1 && fastfetch
+sleep 0.2 && fastfetch
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
