@@ -85,7 +85,7 @@
     },
     {
       "type": "custom",
-      "format": "\u001b[1;35m├─────────────────Uptime / Age────────────────┤\u001b[0m"
+      "format": "\u001b[1;35m├──────────────── Uptime / Age ───────────────┤\u001b[0m"
     },
     {
       "type": "command",

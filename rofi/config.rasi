@@ -9,13 +9,12 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg: #1e1e2e66;
-  bg-alt: #585b7066;
-  bg-selected: #31324466;
+  bg:rgb(0, 0, 0);
+  bg-alt:rgb(0, 0, 0);
+  bg-selected:rgb(36, 119, 228);
 
-  fg: #cdd6f4;
-  fg-alt: #7f849c;
-
+  fg:rgb(255, 255, 255);
+  fg-alt:rgba(166, 166, 166, 0.70);
   
   border: 0;
   margin: 0;
@@ -26,6 +25,7 @@ configuration {
 window {
   width: 30%;
   background-color: @bg;
+  border-radius: 10px;
 }
 
 element {
@@ -37,6 +37,7 @@ element {
 element selected {
   text-color: @fg;
   background-color: @bg-selected;
+
 }
 
 element-text {
