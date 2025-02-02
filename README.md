@@ -28,3 +28,8 @@ sudo stow --target="/" pacman
 
 
 neofetch --config $HOME/.config/neofetch/flex.conf
+
+
+
+credits:
+https://github.com/ericmurphyxyz/rofi-wifi-menu
