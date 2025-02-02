@@ -6,6 +6,8 @@ cowsay
 
 sudo pacman -S ttf-nerd-fonts-symbols
 
+sudo pacman -S dolphin
+
 neofetch
 alacritty
 fastfetch
