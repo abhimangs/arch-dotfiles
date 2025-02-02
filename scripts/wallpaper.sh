@@ -2,7 +2,7 @@
 
 # Define the program name and file/folder path
 program_name="wallpaper"
-file_or_folder="$HOME/wallpaper"
+file_or_folder="$HOME/Pictures/wallpaper"
 file_or_folder_backup="$HOME/dotfiles_backup/wallpaper"
 
 # Check if the file or folder exists
