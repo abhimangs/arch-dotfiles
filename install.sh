@@ -4,7 +4,7 @@
 script_dir="$HOME/dotfiles/scripts"
 
 declare -A options=(
-    ["1"]="Alacritty"
+    ["1"]="All"
     ["2"]="Bash"
     ["3"]="Fastfetch"
     ["4"]="Ghostty"
@@ -18,7 +18,6 @@ declare -A options=(
 )
 
 declare -A scripts=(
-    ["1"]="$script_dir/alacritty.sh"
     ["2"]="$script_dir/bash.sh"
     ["3"]="$script_dir/fastfetch.sh"
     ["4"]="$script_dir/ghostty.sh"
@@ -51,6 +50,19 @@ for choice in "${choices[@]}"; do
     if [[ -n "${options[$choice]}" ]]; then
         if [[ "$choice" == "11" ]]; then
             echo "Exiting..."
+            exit 0
+        fi
+        if [[ "$choice" == "1" ]]; then
+            "$script_dir/alacritty.sh"
+            "$script_dir/bash.sh"
+            "$script_dir/fastfetch.sh"
+            "$script_dir/ghostty.sh"
+            "$script_dir/kde-keybinds.sh"
+            "$script_dir/neofetch.sh"
+            "$script_dir/pacman.sh"
+            "$script_dir/rofi.sh"
+            "$script_dir/ulauncher.sh"
+            "$script_dir/wallpaper.sh"
             exit 0
         fi
         if [[ -x "${scripts[$choice]}" ]]; then
