@@ -31,13 +31,13 @@
     },
     {
       "type": "kernel",
-      "key": "   Kernel",
+      "key": "   Kernel",
       "format": "{2}",
       "keyColor": "red"
     },
     {
       "type": "de",
-      "key": "  󱫐 DE",
+      "key": "  󰧨 DE",
       "keyColor": "green"
     },
     {
@@ -48,7 +48,7 @@
     {
       "type": "terminal",
       "format": "{1}",
-      "key": "  >_ Terminal",
+      "key": "   Terminal",
       "keyColor": "yellow"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "type": "host",
-      "key": "   Host",
+      "key": "   Host",
       "keyColor": "blue"
     },
     {
@@ -92,7 +92,7 @@
     {
       "type": "disk",
       "format": "{1} / {2} ({3})",
-      "key": "   Disk",
+      "key": "   Disk",
       "keyColor": "magenta"
     },
     {
