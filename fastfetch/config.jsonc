@@ -43,6 +43,7 @@
     {
       "type": "packages",
       "key": "  󰏗 Packages",
+      "format": "{1}",
       "keyColor": "green"
     },
     {
