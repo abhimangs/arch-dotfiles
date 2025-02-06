@@ -4,7 +4,7 @@ iatest=$(expr index "$-" i)
 # My Custom ALIAS
 
 alias update="fastfetch && sudo pacman -Syyu && cowsay 'Update complete! I use Arch btw!'"
-alias gp="~/Programs/script/gitpush.sh"
+alias gp="~/Programs/script/gp.sh"
 alias desk="cd $HOME/Desktop"
 
 #######################################################
