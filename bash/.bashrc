@@ -11,15 +11,13 @@ alias desk="cd $HOME/Desktop"
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
 
-sleep 0.2 && fastfetch
-
-
 # Check if fastfetch exists
 if [ -f /usr/bin/fastfetch ]; then
     sleep 0.2 && fastfetch
 # If fastfetch doesn't exist, check for neofetch
 elif [ -f /usr/bin/neofetch ]; then
     sleep 0.2 && neofetch
+fi
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
